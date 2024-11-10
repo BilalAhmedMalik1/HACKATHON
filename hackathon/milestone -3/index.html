@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1><u>Dynamic Resume</u></h1>
+    <form id="resume-form">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" />
+        <label for="LinkedIn">LinkedIn</label>
+        <input type="LinkedIn" id="LinkedIn" placeholder="Enter your linkedin id" required />
+      </fieldset>
+      <fieldset>        
+        <legend>Education</legend>
+        <label for="education">Education:</label>
+        <textarea
+          id="education"
+          placeholder="Enter your education"
+          rows="4"
+          required
+        ></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Experience</legend>
+        <label for="experience">Experience:</label>
+        <textarea
+          id="experience"
+          placeholder="Enter your experience"
+          rows="4"
+          required
+        ></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Profile Summary</legend>
+        <label for="profilesummary">Profile summary</label>
+        <textarea
+          id="profilesummary"
+          placeholder="Enter your summary here"
+          rows="4"
+          required
+        ></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Skills</legend>
+        <label for="skills">Skills:</label>
+        <textarea
+          id="skills"
+          placeholder="Enter your skills"
+          rows="4"
+          required
+        ></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Languages</legend>
+        <label for="language">Languages:</label>
+        <textarea
+          id="language"
+          placeholder="language you speak"
+          rows="4"
+          required
+        ></textarea>
+      </fieldset>
+      <button type="submit">Generate Resume</button>
+    </form>
+    <br>
+    <!-- Dynamic Resume -->
+    <div id="resume-display"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

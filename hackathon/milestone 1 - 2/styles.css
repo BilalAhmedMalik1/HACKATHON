@@ -1,0 +1,146 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.resume {
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  width: 120px; 
+  height: 120px; 
+  border-radius: 50%;
+  border: 3px solid #007BFF; 
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #2D2D2D;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #2D2D2D;
+}
+
+.contact {
+  margin: 10px 0;
+  color: #2D2D2D;
+}
+
+h2 {
+  background-color:  #0046A0;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+h3 {
+  margin: 10px 0 5px;
+  color: #2D2D2D;
+}
+
+h4 {
+  margin: 0;
+  font-weight: normal;
+  color: #555;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.job ul, .skills ul, .certifications ul, .projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.job li, .skills li, .certifications li, .projects li {
+  margin: 5px 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.job li:before, .certifications li:before, .projects li:before {
+  content: '✔';
+  color:  #0046A0;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.summary p, .education h3, .education h4 {
+  margin: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .resume {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  .contact {
+    font-size: 0.9em;
+  }
+}
+/* styles.css */
+
+/* Existing styles... */
+
+.button-container {
+  display: flex; /* Align buttons in a row */
+  justify-content: center; /* Center the buttons */
+  margin-bottom: 20px; /* Space between buttons and the section */
+}
+
+.toggle-button {
+  background-color: #007BFF; /* Match the theme color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Padding for the button */
+  margin: 0 5px; /* Space between buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background change */
+}
+
+.toggle-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+header{
+  padding-left: 20px;
+}
+
